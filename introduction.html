@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Panitia Lomba</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .member {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .member:last-child {
+            border-bottom: none;
+        }
+        .member h2 {
+            margin: 0;
+            color: #007BFF;
+        }
+        .member p {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Perkenalan Panitia Lomba</h1>
+        
+        <div class="member">
+            <h2>Nama: Andi Prasetyo</h2>
+            <p>Jabatan: Ketua Panitia</p>
+            <p>Email: andi@.com</p>
+            <p>Deskripsi: Andi adalah mahasiswa tahun terakhir di Universitas XYZ, dengan pengalaman dalam mengorganisir berbagai acara kampus.</p>
+        </div>
+
+        <div class="member">
+            <h2>Nama: Siti Aisyah</h2>
+            <p>Jabatan: Sekretaris</p>
+            <p>Email: siti@.com</p>
+            <p>Deskripsi: Siti adalah mahasiswi aktif yang memiliki minat dalam manajemen acara dan organisasi kemahasiswaan.</p>
+        </div>
+
+        <div class="member">
+            <h2>Nama: Budi Santoso</h2>
+            <p>Jabatan: Bendahara</p>
+            <p>Email: budi@.com</p>
+            <p>Deskripsi: Budi memiliki latar belakang di bidang keuangan dan bertanggung jawab dalam pengelolaan anggaran lomba.</p>
+        </div>
+
+        <div class="member">
+            <h2>Nama: Rina Melati</h2>
+            <p>Jabatan: Koordinator</p>
+            <p>Email: rina@.com</p>
+            <p>Deskripsi: Rina adalah seorang komunikator ulung yang bertugas untuk menjalin hubungan baik dengan peserta dan sponsor.</p>
+        </div>
+        <a href="{{ url_for('winners') }}">Kembali ke Pengumuman Pemenang</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warna Latar Belakang Menyeluruh</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Selamat Datang di International Math Contest</h1>
+        <p>Lomba International Math Contest telah dilakukan pada 1 januari 2023 lalu...</p>
+        <a href="{{ url_for('winners') }}">Kembali ke Pengumuman Pemenang</a>
+        <p>Dipersilahkan untuk melihat data para pemenang yang telah memenangkan kejuaraan lomba matematika internasional</p>
+        <img src="static/BACKGROUNDWEB.png" alt="">
+    </div>
+</body>
+</html>

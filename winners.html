@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+{% block konten %}
+    <h2 style="text-align: center;">Pengumuman Pemenang</h2>
+    <ul>
+        {% for winner in winners %}
+            <li style="font-size: 5vh; justify-content: center;">Juara {{ winner[0] }} - {{ winner[1] }} - {{ winner[2] }} 🏆</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
